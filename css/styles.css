@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+}
+.btn {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(8,8,8);
+    align-content: center;
+    transition: .2s;
+    color: white;
+    border: none;
+}
+.btn:hover {
+    transition: .2s;
+    background: rgb(255, 255, 255);
+    color: rgb(8,8,8);
+    cursor: pointer;
+}
+.login{
+    /*color: rgb(247,151,30);*/
+    color: aliceblue;
+}
+.wrapper {
+    margin: 0 auto
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    height: 100vh;
+}
+.bodybg {
+    background: url(../image/kartinki-los-andzheles-46.jpg) center center no-repeat;
+    background-size: 100%;
+}
+.background404 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.backgroundindex {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.background403 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.error{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.error h1 {
+    font-size: 144px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+.title-text {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+}
+tr{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    margin-bottom: 16px;
+}
+table{
+    margin: auto;
+}
+
+.btn-a {
+    display: block;
+    width: 900px;
+    min-height: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-a .welcome_back:hover {
+    transition: .4s;
+    box-shadow: 0px -1px 25px 10px rgba(0, 0, 0, 0.37);
+    background: url(../image/kartinki-los-andzheles-46.jpg) center center no-repeat;
+    transition: .4s;
+    background-size: 140%;
+    transform: scale(1.05);
+}
+.welcome_back {
+    transition: .4s;
+    width: inherit;
+    min-height: inherit;
+    background-color: red;
+    border-radius: 40px;
+    border-top: 1px solid transparent;
+    transition: .4s;
+    background: url(../image/kartinki-los-andzheles-45.jpg) center center no-repeat;
+    background-size: auto;
+}
+.text {
+    margin: 80px 100px;
+}
